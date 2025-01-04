@@ -1,0 +1,32 @@
+GET http://localhost:5247/games
+
+###
+GET http://localhost:5247/games/2
+
+###
+POST http://localhost:5247/games
+Content-Type: application/json
+
+{
+  "name": "Spongebob hero pants",
+  "price": 10.0,
+  "genreId": 4,
+  "releaseDate": "2015-02-03"
+}
+
+###
+PUT http://localhost:5247/games/2
+Content-Type: application/json
+
+{
+  "name": "Legend of Zelda: Tears of the kingdom",
+  "price": 10.0,
+  "genre": "Action",
+  "genreId": 4,
+  "releaseDate": "2015-02-03"
+}
+
+###
+DELETE http://localhost:5247/games/2
+
+
