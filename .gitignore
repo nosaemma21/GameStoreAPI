@@ -1,1 +1,5 @@
 .vscode
+
+# Build files
+bin/
+obj/
